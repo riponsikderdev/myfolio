@@ -42,6 +42,7 @@ body {
 }
 .button:hover{
     background-color: #02918c;
+    color: #cfc91d;
 }
 
 .heading {
