@@ -1,0 +1,400 @@
+/* COMMON CSS START */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.button {
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 19px 43px;
+    display: inline-block;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    color: #02918c;
+    font-weight: 800;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.heading p {
+    color: #7e8287;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* COMMON CSS END */
+/* NAV START */
+nav {
+    background-color: #02918c;
+}
+
+nav .logo {
+    width: 40%;
+}
+
+nav .menu {
+    width: 60%;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: inline-block;
+}
+
+/* NAV END */
+/* BANNER START */
+#banner {
+    background-color: rgba(0, 0, 0, 0.34);
+    background-image: url(../images/banner.jpg);
+    padding: 210px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+}
+
+.banner_cnt {
+    text-align: center;
+}
+
+.banner_cnt h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner_cnt h1 {
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner_cnt p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner_cnt img {
+    display: block;
+    margin: 50px auto
+}
+
+.banner_cnt a {
+    color: black;
+}
+
+/* BANNER END */
+/* ABOUT START */
+#about {
+    padding: 98px 0;
+}
+
+#about .details {
+    color: #7e8287;
+    font-size: 16px;
+    text-align: center;
+    padding: 35px;
+    line-height: 40px;
+}
+
+#about .details span {
+    font-weight: 800;
+    font-size: 23px;
+    color: #7e8287;
+
+}
+
+#about .about_card {
+    width: 25%;
+    text-align: center;
+    border-right: 3px solid #7e82872d;
+    padding: 35px 0;
+}
+
+#about .about_card:last-child {
+    border: none;
+}
+
+#about .about_card span {
+    font-size: 30px;
+    color: #02918c;
+}
+
+#about .about_card h4 {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 28px;
+}
+
+#about .about_card p {
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+/* ABOUT END */
+/* SERVICES START */
+#services {
+    position: relative;
+    background-image: url(../images/services\ banner.jpg);
+    padding: 210px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#services::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #f0f0e8;
+    z-index: -1;
+    opacity: 30%;
+}
+
+#services {
+    padding: 75px 0;
+}
+
+#services .services_cnt {
+    width: 50%;
+}
+
+#services .services_cnt .heading {
+    text-align: left;
+}
+
+#services .services_cnt .para1 {
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+#services .blank {
+    width: 50%;
+}
+
+/* SERVICES CARD START */
+#services .services_card {
+    text-align: left;
+    width: 50%;
+    margin-bottom: 55px;
+
+}
+
+#services .services_card span {
+    font-size: 30px;
+    color: #02918c;
+}
+
+#services .services_card h4 {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: left;
+    padding: 20px 0;
+}
+
+#services .services_card p {
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 20px;
+
+}
+
+.services_data .row {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.para1 {
+    margin-top: 15px;
+}
+
+/* SERVICES CARD END */
+/* SERVICES END */
+/* MY WORK START*/
+#mywork {
+    padding: 110px 0;
+}
+
+#mywork .mywork_cnt .para2 {
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* MY WORK END*/
+/* WORK START */
+#work .work_card {
+    width: 25%;
+    position: relative;
+
+}
+
+#work .work_card img {
+    width: 100%;
+    display: block;
+}
+
+.work_card .overlay {
+    background-color: #02918c7c;
+    position: absolute;
+    inset: 30px;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    line-height: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.work_card:hover .overlay {
+    opacity: 1;
+}
+
+#work .work_card img {
+    width: 100%;
+    display: block;
+}
+
+.work_card .overlay {
+    background-color: #02918c7c;
+    position: absolute;
+    inset: 30px;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    line-height: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.work_card:hover .overlay {
+    opacity: 1;
+}
+
+/* WORK END */
+/* CONTACT ME START*/
+#contactme {
+    padding: 110px 0;
+}
+
+#contactme .contactme_cnt .para3 {
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* CONTACT ME END*/
+/* CONTACT START*/
+#contact {
+    background-color: #0b0b0b;
+}
+
+.contact_form input {
+    display: block;
+    margin: auto;
+    width: 630px;
+    background-color: #0b0b0b;
+    text-align: center;
+    border: 0;
+    border-bottom: solid 1px #898989;
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+}
+
+.contact_form {
+    text-align: center;
+    padding: 70px 0;
+
+}
+
+.contact_form .subject {
+    width: 920px;
+    background-color: #0b0b0b;
+    text-align: center;
+}
+
+.contact_form textarea {
+    width: 920px;
+    background-color: #0b0b0b;
+    text-align: center;
+    border: 0;
+    border-bottom: solid 1px #898989;
+    margin: auto;
+    margin-bottom: 60px;
+    resize: none;
+    display: block;
+}
+
+.contact_form a {
+    color: black;
+}
+
+/* CONTACT END */
+/* COPYRIGHT START */
+#copyright {
+    background-color: #000000;
+}
+
+#copyright .container {
+    text-align: center;
+}
+
+#copyright .container p {
+    color: #7e8287;
+    padding: 30px 0;
+}
+
+/* COPYRIGHT END */
