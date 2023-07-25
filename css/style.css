@@ -369,6 +369,7 @@ nav .menu {
     border-bottom: solid 1px #898989;
     padding-bottom: 15px;
     margin-bottom: 60px;
+    outline: 0;
 }
 
 .contact_form {
@@ -393,6 +394,7 @@ nav .menu {
     margin-bottom: 60px;
     resize: none;
     display: block;
+    outline: 0;
 }
 
 .contact_form a {
