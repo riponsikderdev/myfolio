@@ -38,6 +38,10 @@ body {
     text-transform: uppercase;
     padding: 19px 43px;
     display: inline-block;
+    transition: 0.5s all linear;
+}
+.button:hover{
+    background-color: #02918c;
 }
 
 .heading {
@@ -84,6 +88,10 @@ nav .menu {
     font-size: 12px;
     padding: 26px 25px;
     display: inline-block;
+    transition: 0.5s all linear;
+}
+.menu ul li a:hover{
+    color:#cfc91d;
 }
 
 /* NAV END */
@@ -163,6 +171,10 @@ nav .menu {
 #about .about_card span {
     font-size: 30px;
     color: #02918c;
+    transition: 0.5s all linear;
+}
+#about .about_card span:hover{
+    color: #cfc91d;
 }
 
 #about .about_card h4 {
@@ -231,6 +243,10 @@ nav .menu {
 #services .services_card span {
     font-size: 30px;
     color: #02918c;
+    transition: 0.5s all linear;
+}
+#services .services_card span:hover{
+    color: #cfc91d;
 }
 
 #services .services_card h4 {
@@ -283,6 +299,7 @@ nav .menu {
 #work .work_card img {
     width: 100%;
     display: block;
+    height: 100%;
 }
 
 .work_card .overlay {
@@ -303,7 +320,6 @@ nav .menu {
 
 #work .work_card img {
     width: 100%;
-    height:100%;
     display: block;
 }
 
