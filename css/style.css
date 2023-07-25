@@ -91,7 +91,8 @@ nav .menu {
     transition: 0.5s all linear;
 }
 .menu ul li a:hover{
-    color:#cfc91d;
+    background-color:#cfc91d60;
+    color: #48083d;
 }
 
 /* NAV END */
